@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.nav-bar{
+    background-color:#c6c6c6;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-bar a{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.nav-bar a:hover{
+    background-color: chocolate;
+}
+.active,.nav-bar a:active{
+    background-color: #04aa6d;
+}
